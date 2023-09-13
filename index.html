@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bô & Rétro</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" type="image/png" href="img/"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://im4r3s.github.io/BoEtRetro/">
+        <meta property="og:title" content="Bô & Retro">
+        <meta property="og:description" content="Bô & Retro">
+        <meta property="og:image" content="img/.png" href="img/.png">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo"><img src="img/logo.jpg" alt="logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#home" title="Accueil">Accueil</a></li>
+                <li><a href="#products" title="Produits">Produits</a></li>
+                <li><a href="#contact" title="Prestations">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <section id="home">
+                <section class="accueil">
+                    <div class="middle">
+                        <h1 class="title marginzero">Bô & Rétro</h1>
+                        <p class="undertitle marginzero">Sélection vintage, éclectique & sentimentale</p>
+                    </div>
+                    <div class="scrolldown" id="scrolldown">
+                        <svg height="30" width="10">
+                            <circle class="scrolldown-p1" cx="5" cy="15" r="2" />
+                            <circle class="scrolldown-p2" cx="5" cy="15" r="2" />
+                        </svg>
+                    </div>
+                </section>
+            </section>
+            <section id="products">
+                <div class="outerdiv">
+                    <div class="cards">
+                        <div class="card">
+                        </div>
+                        <div class="card">
+                        </div>
+                        <div class="card">
+                        </div>
+                        <div class="card">
+                        </div>
+                        <div class="card">
+                        </div>
+                        <div class="card">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="box">
+                    <h1>Contact</h1>
+                    <form action="mailto:hortense.balme@gmail.com" autocomplete="off">
+                        <div class="div-table">
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="text" required>
+                                        <label>Nom</label>
+                                    </div>
+                                </div>
+                                <div class="div-table-col s">.</div>
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="text" required>
+                                        <label>Prénom</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="number" required>
+                                        <label>Téléphone</label>
+                                    </div>
+                                </div>
+                                <div class="div-table-col s">.</div>
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="email" required>
+                                        <label>Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input type="datetime-local">
+                                    </div>
+                                </div>
+                                <div class="div-table-col s">.</div>
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <input list="datalist" required>
+                                        <datalist id="datalist">
+                                            <option>Suisse</option>
+                                            <option>France</option>
+                                            <option>Belgique</option>
+                                        </datalist>
+                                        <label>Pays</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <div class="user-box">
+                                        <textarea required placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="div-table-row">
+                                <div class="div-table-col" style="width: 24rem">
+                                    <input type="checkbox" required> J'accepte les conditions
+                                </div>
+                            </div>
+                            <br>
+                            <div class="div-table-row">
+                                <div class="div-table-col">
+                                    <input type="reset" value="Effacer" class="button">
+                                    <input type="submit" value="Envoyer" class="button">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <div class="stick footer-basic">
+            <footer>
+                <div class="social" style="padding: 0;">
+                    <a href="https://www.instagram.com/bo.et.retro/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/WebCustom" target="_blank">
+                        <i class="icon ion-social-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <i class="icon ion-social-linkedin"></i>
+                    </a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a onclick="upFunction()">Accueil</a></li>
+                </ul>
+                <p class="copyright">Bô & Rétro © 2023</p>
+            </footer>
+        </div>
+        <button onclick="upFunction()" id="upBtn" title="Up"><img class="btnImg" src="img/up.png" alt="Remonter"></button>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
