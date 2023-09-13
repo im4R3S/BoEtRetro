@@ -7,6 +7,7 @@ section{height: 100vh !important;}
 .list-inline-item{display:inline-block}
 .marginzero{margin: 0 !important;}
 .outerdiv{width: 100%;min-height: 100vh;background: white;align-items: center;justify-content: center;}
+@media (min-width: 900px) {.outerdiv{width: 100%;min-height: 100vh;background: white;display: flex;align-items: center;justify-content: center;}}
 
 /* LOGO */
 .logo img {width: 2.5rem;}
@@ -48,11 +49,7 @@ section{height: 100vh !important;}
 .card {background-color: #c9bfa3;padding: 1rem;height: 4rem;}
 .cards {max-width: 1200px;margin: 0 auto;display: grid;grid-gap: 1rem;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));padding: 1rem;text-align: center;}
 @media (min-width: 900px) {.cards { grid-template-columns: repeat(2, 1fr);}}
-@media (min-width: 1100px) {.cards { grid-template-columns: repeat(3, 1fr); }}.font-alt {font-family: "Dosis", sans-serif;text-transform: uppercase;text-align: center;}
-.content-box {margin: 25px auto;}
-.content-box-icon {font-size: 4rem;text-align: center;}
-.content-box-title {font-size: 1.5rem;color: #111;}
-.content-box-text {color: #777;}
+@media (min-width: 1100px) {.cards { grid-template-columns: repeat(3, 1fr); }}
 
 /* CONTACT */
 .s{color: transparent !important; height: 0.1px!important; width: 270px !important;}
@@ -90,3 +87,37 @@ textarea{border-color: black;background-color: transparent;color: black;height: 
 .footer-basic .social > a {font-size:24px;width:40px;height:40px;line-height:40px;display:inline-block;text-align:center;margin:0 8px;color:inherit;transition: 0.3s;}
 .footer-basic .social > a:hover {color: #686868}  
 .footer-basic .copyright {text-align:center;font-size:13px;margin-bottom:0;}
+
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #c9bfa3;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card2 button:hover {
+    opacity: 0.7;
+  }
+  
+  .card2 p{
+    margin-bottom: 0;
+  }
